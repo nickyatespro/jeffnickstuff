@@ -11,12 +11,20 @@ public class Quiz implements ActionListener {
             "What year was AutoZone founded?",
             "What was the name of the company BEFORE it was changed to AutoZone?",
             "What is AutoZone's primary color?",
+            "What extreme sport is Jeff involved in?",
+            "What instrument does Nick play?",
+            "What is Jeff's middle name?",
+            "What is Nick's middle name?",
 
     };
     String[][] options = {
             {"1945","2010","1979","1890"},
             {"AutoPlanet", "AutoWorld", "AutoStop", "AutoShack"},
             {"Red", "Purple", "Yellow", "Blue"},
+            {"Skateboarding", "Motocross", "BMX", "Surfing"},
+            {"Bass", "Guitar", "Both A and B", "Neither A or B"},
+            {"Eugene", "Bryant", "Orwell", "Grant"},
+            {"Tomlin", "David", "Taylor", "Winston"},
 
     };
 
@@ -24,6 +32,10 @@ public class Quiz implements ActionListener {
             'C',
             'D',
             'A',
+            'B',
+            'C',
+            'D',
+            'C',
 
     };
     char guess;
